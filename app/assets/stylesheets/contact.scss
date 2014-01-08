@@ -1,0 +1,17 @@
+@import "base";
+
+.contact-info {
+	dl {
+	 overflow:hidden;
+	}
+  dt {
+    width: 48px;
+    clear: left;
+    text-align: center;
+  }
+  dt, dd {
+    float: left;
+  }
+
+  dd {width: 200px;}
+}

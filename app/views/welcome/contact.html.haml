@@ -1,0 +1,58 @@
+.page-title
+  .row
+    .columns.large-12
+      %h1 Contact
+      %p 
+        How may we help? Drop us a note and we'll respond shortly.
+
+%section.note
+  .row
+    .columns.large-6
+      %h2 Send a note
+      %form
+
+        .row.collapse
+          .columns.small-2
+            %span.radius.prefix <span class="fontawesome-edit"></span>
+          .columns.small-10
+            %textarea{:placeholder => "Type your message"}
+
+        .row.collapse
+          .columns.small-2
+            %span.radius.prefix <span class="fontawesome-phone"></span>
+          .columns.small-10
+            %input{:type => "text", :placeholder => "555-555-5555"}
+
+        .row.collapse
+          .columns.small-2
+            %span.radius.prefix <span class="fontawesome-envelope"></span>
+          .columns.small-10
+            %input{:type => "email", :placeholder => "your.name@email.com"}
+
+        .row.collapse
+          .columns.small-6
+          %a.button{:href => "#"} Send
+
+
+    %aside.contact-info.columns.large-5.panel
+      %h3 Find us here
+      %dl 
+        %dt <span class="fontawesome-twitter"></span>
+        %dd
+          %a{:href => "http:/twitter.com/ticketzen"} @ticketzen
+
+        %dt <span class="fontawesome-facebook"></span>
+        %dd
+          %a{:href => "http://facebook.com/ticketzen"} /ticketzen
+
+        %dt <span class="fontawesome-envelope"></span>
+        %dd
+          %a{:href => "mailto:info@ticketzen.com"} info@ticketzen.com
+
+        %dt <span class="fontawesome-phone"></span>
+        %dd 508-901-1874
+
+        %dt <span class="fontawesome-building"></span>
+        %dd 
+          129 Terrible Row<br>
+          Boston, MA 02111

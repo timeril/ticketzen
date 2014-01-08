@@ -1,0 +1,24 @@
+.page-title
+  .row
+    .columns.large-12
+      %h1 Help Center
+
+.row
+  .columns.large-8
+    %h2 FAQ
+    %dl.accordion{:data => {'accordion' => true}}
+      %dd
+        %a{:href => "#panel1"} Question text
+        .content.active#panel1 Question answer
+      %dd
+        %a{:href => "#panel2"} Question text
+        .content#panel1 Question answer
+      %dd
+        %a{:href => "#panel3"} Question text
+        .content#panel1 Question answer
+
+  %aside.columns.large-4.panel
+    %h3 Need more help?
+    %p 
+      We want to make it as easy as possible. Get in touch and we'll respond to your inquiry within 24 hours. <br>
+      %a.button{:href => "/contact"} Contact Us
