@@ -16,6 +16,14 @@
     :javascript 
       try{Typekit.load();}catch(e){}
 
+    :javascript
+      (function (d, t) {
+      var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      bh.type = 'text/javascript';
+      bh.src = '//www.bugherd.com/sidebarv2.js?apikey=qrpohly2gswlbqfedsr63w';
+      s.parentNode.insertBefore(bh, s);
+      })(document, 'script');
+
 
   %body
     = render 'shared/flashes'
