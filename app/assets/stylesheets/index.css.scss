@@ -7,18 +7,27 @@
       border: 1px solid #333;
       width: 36px; height: 36px;
       line-height: 36px;
-      margin: 0 auto 1em;
+      margin: 0 auto .5em;
       text-align: center;
       border-radius: 30px;
+      font-family: $body-font-family;
     }
 
     .fake-ticket {margin-bottom: 0;}
 	}
 }
 
+.available-cities h2, 
+.testimonials h2 {
+  font-size: 1em;
+  font-family: $body-font-family;
+  font-weight: bold;
+}
+
 .available-cities {
   background: #f1f1f1;
   padding: 3em 0;
+
 
   table {
     width: 100%;
@@ -27,14 +36,22 @@
     th, td {
       vertical-align: top; 
       background: transparent;
+
       }
+    th {
+      color: #ccc; 
+      padding-top: 7px;
+    }
+    td {font-size: emCalc(24px); padding-top: 0; line-height: 1.5em;}
   }
 }
 
 .testimonials {
   padding: 3em 0;
 
-  cite {font-style: normal;}
+
+  blockquote {font-size: emCalc(18px); border-left: 0;}
+  cite {font-style: normal; padding-top: 1em;}
 }
 
 .for-cities {
