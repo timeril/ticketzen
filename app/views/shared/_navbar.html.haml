@@ -1,0 +1,27 @@
+%header
+  %nav.top-bar{:data => {'topbar' => true}}
+    %ul.title-area
+      %li.name
+        %h1
+          %a{href: "/"}<
+            %img{:src => "http://placehold.it/56x56&text=frog", :alt => "TicketZen Frog"}
+            TicketZen
+      %li.toggle-topbar.menu-icon
+        %a{href: "#"} Menu <span class="fontawesome-bars"></span>
+    %section.top-bar-section
+      / Right Nav Section
+      %ul.right
+        %li.active
+          %a{href: "/cities"} For Cities
+        %li
+          %a{href: "/blog"} Blog
+        %li
+          %a{href: "/about-us"} About Us
+        %li
+          %a{href: "/help"} Help
+        %li
+          %a{href: "/contact"} Contact
+        %li
+          %a{href: "#"} <span class="fontawesome-facebook"></span>
+        %li
+          %a{href: "#"} <span class="fontawesome-twitter"></span>

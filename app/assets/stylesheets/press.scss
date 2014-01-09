@@ -2,11 +2,8 @@
 
 .press
 	{
+		background: $bg1;
 		h2 {text-align:center;}
 		.logo {display: block; margin: 0 auto 1em;}
 		blockquote {border-left: 0;}
-
-		background: $bg1;
-
-		@include grid-row;
 	}

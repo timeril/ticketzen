@@ -1,4 +1,33 @@
+body, p, td, th, li, div {
+  font-family: 'Lato', sans-serif;
+}
+
 .page-title {
-	h1, p
+	padding: 3em 0 0;
+  h1, h2, p
 	{text-align:center;}
+}
+
+.link-panel {
+
+	dl {
+	 overflow:hidden;
+	}
+  dt {
+    width: 48px;
+    clear: left;
+    text-align: center;
+  }
+  dt, dd {
+    float: left;
+  }
+
+  dd {width: 200px;}
+}
+
+footer {
+  padding: 1em 0;
+  background: #333;
+  p {color: #fff;}
+  nav a {display: inline-block; padding-right: 2em;}
 }

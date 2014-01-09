@@ -1,1 +1,114 @@
-%h1 hello world
+.page-title.hero
+  .row
+    .columns.large-12
+      %h1 The easiest way to pay your parking ticket.
+      %h2 Try it for yourself:
+      
+  .row.try-it
+    .columns.large-4.step#step1
+      %h3 1
+      %p
+        Install TicketZen on your phone:<br>(it's totally free)
+      %p<
+        %img{:src => "http://placehold.it/120x50&text=App+Store"}
+      %p<
+        %img{:src => "http://placehold.it/120x50&text=Play"}
+
+    .columns.large-4.step#step2
+      %h3 2
+      %p Use TicketZen to<br>scan the barcode below:
+      %p.fake-ticket
+        %img{:src => "http://placehold.it/237x336&text=Ticket"}
+
+    .columns.large-4.step#step3
+      %h3 3
+      %p Behold the magic!
+      %p<
+        %img{:src => "http://placehold.it/160x336&text=Phone"}
+
+%section.available-cities
+  .row
+    .columns.large-3
+      %h2 Available in these cities
+      %p
+        %a{:href => "#"} Where's my city?
+    .columns.large-3
+      %table
+        %tr
+          %th CO
+          %td Boulder<br>Denver
+        %tr
+          %th CT
+          %td Hartford
+    .columns.large-3
+      %table
+        %tr
+          %th MA
+          %td 
+            Boston<br>
+            Cambridge<br>
+            Salem
+        %tr
+          %th CT
+          %td Hartford
+    .columns.large-3
+      %table
+        %tr
+          %th CO
+          %td Boulder<br>Denver
+        %tr
+          %th CT
+          %td Hartford
+%section.testimonials
+  .row
+    .columns.large-3
+      %h2 Bringing joy to many
+    .columns.large-3
+      %blockquote 
+        "Better than a Jello Pudding Pop"
+        %cite <span class="fontawesome-twitter"> @billcosbyhimself</span>
+    .columns.large-3
+      %blockquote 
+        "Better than a Jello Pudding Pop"
+        %cite <span class="fontawesome-twitter"> @billcosbyhimself</span>
+    .columns.large-3
+      %blockquote 
+        "Better than a Jello Pudding Pop"
+        %cite <span class="fontawesome-twitter"> @billcosbyhimself</span>
+
+%section.for-cities
+  .row.intro
+    .columns.large-12
+      %h2
+        For Cities<br>
+        %img{:src => "http://placehold.it/100x100&text=IMG", :alt => "City icon"}
+      %h3 Want to bring TicketZen to your city?
+  .row
+    .columns.large-7
+      %p
+        TicketZen partners with municipalities to allow its residents to pay for parking tickets using their mobile phones. If you'd like to see TicketZen in your city, get in touch! We'd love to help.
+    .columns.large-5
+      %h3 Send us a note
+      %form
+        .row.collapse
+          .columns.small-2
+            %span.radius.prefix <span class="fontawesome-edit"></span>
+          .columns.small-10
+            %textarea{:placeholder => "Type your message"}
+
+        #contact-fields.hide
+          .row.collapse
+            .columns.small-2
+              %span.radius.prefix <span class="fontawesome-phone"></span>
+            .columns.small-10
+              %input{:type => "text", :placeholder => "555-555-5555"}
+
+          .row.collapse
+            .columns.small-2
+              %span.radius.prefix <span class="fontawesome-envelope"></span>
+            .columns.small-10
+              %input{:type => "email", :placeholder => "your.name@email.com"}
+
+        .row.collapse
+          .columns.small-6
+          %a.button{:href => "#"} Send

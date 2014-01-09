@@ -65,8 +65,8 @@ $default-float: left;
 
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $body-font-weight: normal;
+   $body-font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+// $body-font-weight: 300;
 // $body-font-style: normal;
 
 // Font-smoothing
@@ -1179,18 +1179,18 @@ $default-float: left;
 
 // These control the background color for the table and even rows
 
-// $table-bg: #fff;
-// $table-even-row-bg: #f9f9f9;
+   $table-bg: transparent;
+   $table-even-row-bg: transparent;
 
 // These control the table cell border style
 
-// $table-border-style: solid;
-// $table-border-size: 1px;
+   $table-border-style: none;
+  $table-border-size: 0;
 // $table-border-color: #ddd;
 
 // These control the table head styles
 
-// $table-head-bg: #f5f5f5;
+   $table-head-bg: transparent;
 // $table-head-font-size: em-calc(14);
 // $table-head-font-color: #222;
 // $table-head-font-weight: bold;

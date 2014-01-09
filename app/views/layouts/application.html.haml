@@ -9,6 +9,7 @@
     = csrf_meta_tag
 
     = stylesheet_link_tag :application
+    = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Lato:300"
     = javascript_include_tag :application
     = javascript_include_tag "vendor/custom.modernizr"
 
@@ -16,4 +17,6 @@
     = render 'shared/flashes'
 
     .container-fluid
+      = render 'shared/navbar'
       = yield
+      = render 'shared/footer'
