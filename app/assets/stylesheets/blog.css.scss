@@ -1,0 +1,14 @@
+@import "base";
+
+.blog {
+  
+  .page-title {
+    text-align: center;
+    background: image-url("bg-blog.jpg") no-repeat 50% 30%;
+    background-size: 100% auto;
+
+  }
+
+  section {padding: 3em 0 4em;}
+  
+}

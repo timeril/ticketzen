@@ -102,7 +102,7 @@ a.button {
     font-size: emCalc(20px); 
     color: #fff;
     text-align: center;
-    background: lighten($bright-green, 1%) url(heart.svg) no-repeat 50% 8%;
+    background: lighten($bright-green, 1%) image-url("heart.svg") no-repeat 50% 8%;
     border-radius: 5px;
     border: 0;
     padding: 2em 1em 1em;
@@ -123,16 +123,16 @@ a.button {
 }
 
 .for-cities {
-  padding: 0 0 3em;
+  padding: 0 0 4em;
   background: $dark-green;
   h3, p {color: #fff;}
-  h2 {text-align: center; margin-bottom: 1em; color: #fff;}
+  h2 {text-align: center; margin-bottom: 2em; color: #fff;}
   p {line-height: 1.5em;}
   .intro {
     background: darken($dark-green, 1%);
     text-align: center;
     padding: 1.5em 0;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
       h2 {
         font-size: 1em; 
         line-height: 2em;
@@ -153,7 +153,9 @@ a.button {
       background: darken($dark-green, 10%); 
       border: 0; 
       color: #fff;
-      @include radius;}
+      height: 120px;
+      @include radius;
+    }
   }
 
 }

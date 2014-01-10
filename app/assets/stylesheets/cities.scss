@@ -1,6 +1,36 @@
 @import "base";
 
-section.faq {
-  h2 {text-align: center;}
-  background: $tealish;
+.cities-page {
+  
+  .page-title {
+    text-align: center;
+    background: image-url("bg-cities.jpg") no-repeat center center;
+    background-size: cover;
+    
+    img#ico-city-hall {width: 48px; height: 48;}
+    p {margin-bottom: 2em;}
+
+  }
+
+  section {padding: 3em 0 4em;}
+
+  section.faq {
+  
+    h2 {text-align: center; color: #fff;}
+
+    dd a {color: $dark-green; font-size: emCalc(20px);}
+    dd .content {color: #fff;}
+    
+    background: $bright-green;
+    padding: 2em 0 3em;
+    border-top: 12px solid darken($bright-green, 2%);
+  } 
+
+  section.press {
+
+    background: $dark-green;
+
+    h2, p, blockquote, cite {color: #fff;}
+  }
+
 }

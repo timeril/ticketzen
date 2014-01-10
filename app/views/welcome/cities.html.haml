@@ -1,73 +1,79 @@
-.page-title
-  .row
-    .columns.large-12
-      %h1 For Cities
-      %p
-        Give your citizens the fastest way to pay their parking tickets, and they'll pay faster
-      %p <img src="http://placehold.it/600x300&text=city pic">
-  .row
-    .columns.large-6.large-centered
-      %p
-        Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      .panel
-        %h3 Get in touch
-        %form
+.cities-page
+  .page-title
+    .row
+      .columns.large-12
+        =image_tag "city-hall.svg", :alt => "City Hall", :id => "ico-city-hall"
+        %h1 For Cities
+        %p
+          Give your citizens the fastest way to pay their parking tickets, and they'll pay faster
 
-          .row.collapse
-            .columns.small-12
-              %textarea{:placeholder => "Type your message"}
+  %section.intro
+    .row
+      .columns.large-6
+        %h4 Praesent commodo cursus magna
+        %p
+          Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 
-          .row.collapse
-            .columns.small-2
-              %span.radius.prefix <span class="fontawesome-phone"></span>
-            .columns.small-10
-              %input{:type => "text", :placeholder => "555-555-5555"}
+      .columns.large-6
+        .panel
+          %h3 Get in touch
+          %form
 
-          .row.collapse
-            .columns.small-2
-              %span.radius.prefix <span class="fontawesome-envelope"></span>
-            .columns.small-10
-              %input{:type => "email", :placeholder => "your.name@email.com"}
+            .row.collapse
+              .columns.small-12
+                %textarea{:placeholder => "Type your message"}
 
-          .row.collapse
-            .columns.small-6
-            %a.button{:href => "#"} Send
+            .row.collapse
+              .columns.small-2
+                %span.radius.prefix <span class="fontawesome-phone"></span>
+              .columns.small-10
+                %input{:type => "text", :placeholder => "555-555-5555"}
 
-%section.faq
-  .row
-    .columns.large-8.large-centered
+            .row.collapse
+              .columns.small-2
+                %span.radius.prefix <span class="fontawesome-envelope"></span>
+              .columns.small-10
+                %input{:type => "email", :placeholder => "your.name@email.com"}
+
+            .row.collapse
+              .columns.small-6
+              %a.button{:href => "#"} Send
+
+  %section.faq
+    .row
+      .columns.large-8.large-centered
+        
+        %h2 FAQ
+        %dl.accordion{:data => {'accordion' => true}}
+          %dd
+            %a{:href => "#panel1"} Question text
+            .content.active#panel1 Question answer
+          %dd
+            %a{:href => "#panel2"} Question text
+            .content#panel1 Question answer
+          %dd
+            %a{:href => "#panel3"} Question text
+            .content#panel1 Question answer
+      .columns.large-4
       
-      %h2 FAQ
-      %dl.accordion{:data => {'accordion' => true}}
-        %dd
-          %a{:href => "#panel1"} Question text
-          .content.active#panel1 Question answer
-        %dd
-          %a{:href => "#panel2"} Question text
-          .content#panel1 Question answer
-        %dd
-          %a{:href => "#panel3"} Question text
-          .content#panel1 Question answer
-    .columns.large-4
-    
 
-%section.press
-  .row
-    .columns.large-12
-      %h2 Press
-  .row
-    .columns.large-4
-      <img src="http://placehold.it/120x80&text=logo" class="logo">
-      %blockquote
-        %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-        %cite Source of the quote
-    .columns.large-4
-      <img src="http://placehold.it/120x80&text=logo" class="logo">
-      %blockquote
-        %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-        %cite Source of the quote
-    .columns.large-4
-      <img src="http://placehold.it/120x80&text=logo" class="logo">
-      %blockquote
-        %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-        %cite Source of the quote
+  %section.press
+    .row
+      .columns.large-12
+        %h2 Press
+    .row
+      .columns.large-4
+        <img src="http://placehold.it/120x80&text=logo" class="logo">
+        %blockquote
+          %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+          %cite Source of the quote
+      .columns.large-4
+        <img src="http://placehold.it/120x80&text=logo" class="logo">
+        %blockquote
+          %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+          %cite Source of the quote
+      .columns.large-4
+        <img src="http://placehold.it/120x80&text=logo" class="logo">
+        %blockquote
+          %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+          %cite Source of the quote
