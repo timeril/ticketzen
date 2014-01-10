@@ -1,9 +1,11 @@
 // This could really benefit from variables, but it's not being compiled with _base, 
 // where the variables are stored.
 
+$dark-blue2: #04283B;
+
 nav.top-bar {
-  background: #04283B;
-  border-bottom: 1px solid #064F5E;
+  background: $dark-blue2;
+  border-bottom: 1px solid darken($dark-blue2, 2%);
 
   .top-bar-section ul,
   .top-bar-section li a:not(.button) {background: transparent;}
