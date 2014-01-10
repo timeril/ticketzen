@@ -1,0 +1,35 @@
+@import "base";
+
+.about-us {
+  
+  .page-title {
+    text-align: center;
+    background: image-url("bg-hero.jpg") no-repeat 50% 30%;
+    background-size: 100% auto;
+    padding-bottom: 4em;
+
+  }
+
+  section {padding: 3em 0 4em;}
+
+  .team-photos {
+  	li img {
+  		border-radius: 100px;
+  	}
+
+  	margin-top: -4em;
+  	padding: 2em 0 0;
+  }
+
+  .body-text .download img {display: block; margin: 0 auto 1em;}
+
+  .body-text aside h4 {color: $primary-color;}
+
+  .press {
+  	background: $bright-green;
+  	border-top: 12px solid darken($bright-green, 2%);
+
+  	h2, p, cite {color: #fff;}
+  }
+  
+}

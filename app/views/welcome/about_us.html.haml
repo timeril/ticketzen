@@ -1,58 +1,62 @@
-.page-title
-  .row
-    .columns.large-12
-      %h1 About Us
+.about-us
+  .page-title
+    .row
+      .columns.large-12
+        %h1 About Us
 
-%section.team-photos
-  .row
-    .columns.large-12
-      %ul.small-block-grid-4.large-block-grid-6
-        %li <img src="http://placehold.it/150x150&text=headshot">
-        %li <img src="http://placehold.it/150x150&text=headshot">
-        %li <img src="http://placehold.it/150x150&text=headshot">
-        %li <img src="http://placehold.it/150x150&text=headshot">
-        %li <img src="http://placehold.it/150x150&text=headshot">
-        %li <img src="http://placehold.it/150x150&text=headshot">
+  %section.team-photos
+    .row
+      .columns.large-12
+        %ul.small-block-grid-3.large-block-grid-6
+          %li <img src="http://placehold.it/150x150&text=headshot">
+          %li <img src="http://placehold.it/150x150&text=headshot">
+          %li <img src="http://placehold.it/150x150&text=headshot">
+          %li <img src="http://placehold.it/150x150&text=headshot">
+          %li <img src="http://placehold.it/150x150&text=headshot">
+          %li <img src="http://placehold.it/150x150&text=headshot">
 
-.body-text
-  .row
-    %section.columns.large-8
-      %h2 TicketZen's Story
+  %section.body-text
+    .row
+      .columns.large-8
+        %h2 TicketZen's Story
+        
+        %p TicketZen began with a simple idea: unify and optimize the process of paying parking tickets. The technology provides a single, mobile interface allowing citizens to pay for parking tickets the same way, no matter what city they are in. 
+        
+        %p TicketZen is launching its mobile-optimized technology throughout the U.S., Canada, Europe, and Australia. 
+
+        %p With TicketZen, you can forget those antiquated, Government, Web 1.0 forms, and use the camera on your iPhone or Android camera to scan your ticket’s barcode, enter your credit card, and submit payment to the city.  Even if your ticket is not yet available to be paid, TicketZen will store your violation number and send you a push notification when it’s ready to be paid.
       
-      %p TicketZen began with a simple idea: unify and optimize the process of paying parking tickets. The technology provides a single, mobile interface allowing citizens to pay for parking tickets the same way, no matter what city they are in. 
-      
-      %p TicketZen is launching its mobile-optimized technology throughout the U.S., Canada, Europe, and Australia. 
+      %aside.columns.large-4
 
-      %p With TicketZen, you can forget those antiquated, Government, Web 1.0 forms, and use the camera on your iPhone or Android camera to scan your ticket’s barcode, enter your credit card, and submit payment to the city.  Even if your ticket is not yet available to be paid, TicketZen will store your violation number and send you a push notification when it’s ready to be paid.
-    
-    %aside.columns.large-4
+        %h4 We’re sorry you got a ticket but hopefully TicketZen has helped to make the experience of getting the ticket off your plate a little bit easier!
 
-      %h4 We’re sorry you got a ticket but hopefully TicketZen has helped to make the experience of getting the ticket off your plate a little bit easier!
+        .panel 
+          %h5 Be Prepared
+          %p Download TicketZen now:
+          .download
+            %p<
+              %a{:href => "#"}
+                =image_tag "app-store-badge-135x40.svg", :alt => "Download on the App Store"
+              %a{:href => "#"}
+                =image_tag "https://developer.android.com/images/brand/en_generic_rgb_wo_45.png", :alt => "Get it on Google Play"
 
-      .panel 
-        %h5 Be Prepared
-        %p Download TicketZen now:
-        .download
-          %a.button{:title => "App Store", :href => "http://itunes.com/apps/ticketzen"} App Store
-          %a.button{:title => "App Store", :href => "http://itunes.com/apps/ticketzen"} Google Play
-
-%section.press
-  .row
-    .columns.large-12
-      %h2 Press
-  .row
-    .columns.large-4
-      <img src="http://placehold.it/120x80&text=logo" class="logo">
-      %blockquote
-        %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-        %cite Source of the quote
-    .columns.large-4
-      <img src="http://placehold.it/120x80&text=logo" class="logo">
-      %blockquote
-        %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-        %cite Source of the quote
-    .columns.large-4
-      <img src="http://placehold.it/120x80&text=logo" class="logo">
-      %blockquote
-        %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-        %cite Source of the quote
+  %section.press
+    .row
+      .columns.large-12
+        %h2 Press
+    .row
+      .columns.large-4
+        <img src="http://placehold.it/120x80&text=logo" class="logo">
+        %blockquote
+          %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+          %cite Source of the quote
+      .columns.large-4
+        <img src="http://placehold.it/120x80&text=logo" class="logo">
+        %blockquote
+          %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+          %cite Source of the quote
+      .columns.large-4
+        <img src="http://placehold.it/120x80&text=logo" class="logo">
+        %blockquote
+          %p "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+          %cite Source of the quote
