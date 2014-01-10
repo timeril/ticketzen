@@ -8,23 +8,24 @@
     .columns.large-4.step#step1
       %h3 1
       %p
-        Install TicketZen on your phone:<br>(it's totally free)
+        Install TicketZen on your phone:<br>
+        %em (it's totally free)
       %p<
-        %img{:src => "http://placehold.it/120x50&text=App+Store"}
-      %p<
-        %img{:src => "http://placehold.it/120x50&text=Play"}
+        %a{:href => "#"}
+          =image_tag "app-store-badge-135x40.svg", :alt => "Download on the App Store"
+        <br>
+        %a{:href => "#"}
+          =image_tag "https://developer.android.com/images/brand/en_generic_rgb_wo_45.png", :alt => "Get it on Google Play"
 
     .columns.large-4.step#step2
       %h3 2
       %p Use TicketZen to<br>scan the barcode below:
-      %p.fake-ticket
-        %img{:src => "http://placehold.it/237x336&text=Ticket"}
+      =image_tag "fake-ticket.png", :alt => "Parking Ticket"
 
     .columns.large-4.step#step3
       %h3 3
       %p Behold the magic!
-      %p<
-        %img{:src => "http://placehold.it/160x336&text=Phone"}
+      =image_tag "iphone-step3.png", :alt => "iPhone"
 
 %section.available-cities
   .row
@@ -67,34 +68,56 @@
       %blockquote 
         "Better than a Jello Pudding Pop"
         %cite
-          %span.fontawesome-twitter
-            %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
     .columns.large-3
       %blockquote 
         "Better than a Jello Pudding Pop"
         %cite
-          %span.fontawesome-twitter
-            %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
     .columns.large-3
       %blockquote 
         "Better than a Jello Pudding Pop"
         %cite
-          %span.fontawesome-twitter
-            %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+  .row
+    
+      
+    .columns.large-3.large-offset-3
+      %blockquote 
+        "Better than a Jello Pudding Pop"
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+    .columns.large-3
+      %blockquote 
+        "Better than a Jello Pudding Pop"
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+    .columns.large-3
+      %blockquote 
+        "Better than a Jello Pudding Pop"
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
 
 %section.for-cities
-  .row.intro
+
+  .intro
+    .row
+      .columns.large-12
+        %h2
+          =image_tag "city-hall.svg", :alt => "City icon"
+          <br>
+          For Cities
+
+  .row
     .columns.large-12
-      %h2
-        For Cities<br>
-        %img{:src => "http://placehold.it/100x100&text=IMG", :alt => "City icon"}
-      %h3 Want to bring TicketZen to your city?
+      %h2 Want to bring TicketZen to your city?
+
   .row
     .columns.large-7
       %p
         TicketZen partners with municipalities to allow its residents to pay for parking tickets using their mobile phones. If you'd like to see TicketZen in your city, get in touch! We'd love to help.
     .columns.large-5
-      %h3 Send us a note
+      %h4 Send us a note
       %form
         .row.collapse
           .columns.small-12

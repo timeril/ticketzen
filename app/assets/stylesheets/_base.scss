@@ -2,9 +2,12 @@
 // Foundation setttings
 $body-font-family: proxima-nova, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $header-font-family: cronos-pro, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$header-font-weight: normal;
+$header-font-weight: 300;
 $table-bg: transparent;
 $table-even-row-bg: transparent;
+$topbar-title-weight: normal;
+$topbar-title-font-size: 24px;
+$topbar-link-weight: normal;
 
 @import "foundation";
 @import "foundation/components/buttons";
@@ -20,4 +23,8 @@ $table-even-row-bg: transparent;
 
 // Colors
 $bg1: #f1f1f1; //background
-$bg2: #ccc; //background
+$light-blue: #03C4E2;
+$tealish: #007F9A;
+$bright-green: #079948;
+$dark-green: #0A613E;
+$dark-blue: #004454;

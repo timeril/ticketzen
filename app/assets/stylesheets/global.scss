@@ -1,14 +1,24 @@
+// This could really benefit from variables, but it's not being compiled with _base, 
+// where the variables are stored.
+
+nav.top-bar {
+  background: #04283B;
+  border-bottom: 1px solid #064F5E;
+
+  .top-bar-section ul,
+  .top-bar-section li a:not(.button) {background: transparent;}
+}
+
+.title-area .name img {margin-right: 1em;}
+
 .page-title {
 	padding: 3em 0 0;
-  h1, h2, p
-	{text-align:center;}
+  h1 {margin-bottom: 0;}
+  h1, h2, p {text-align:center;}
 }
 
 .link-panel {
-
-	dl {
-	 overflow:hidden;
-	}
+	dl {overflow:hidden;}
   dt {
     width: 48px;
     clear: left;
