@@ -1,3 +1,10 @@
+// Colors
+$bg1: #f1f1f1; //background
+$light-blue: #03C4E2;
+$tealish: #007F9A;
+$bright-green: #079948;
+$dark-green: #0A613E;
+$dark-blue: #004454;
 
 // Foundation setttings
 $body-font-family: proxima-nova, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -8,6 +15,11 @@ $table-even-row-bg: transparent;
 $topbar-title-weight: normal;
 $topbar-title-font-size: 24px;
 $topbar-link-weight: normal;
+$primary-color: $bright-green;
+$shiny-edge-size: 0 0 0 !default;
+$global-radius: 5px;
+$button-function-factor: 4%;
+$button-border-width: 0;
 
 @import "foundation";
 @import "foundation/components/buttons";
@@ -20,11 +32,3 @@ $topbar-link-weight: normal;
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
-
-// Colors
-$bg1: #f1f1f1; //background
-$light-blue: #03C4E2;
-$tealish: #007F9A;
-$bright-green: #079948;
-$dark-green: #0A613E;
-$dark-blue: #004454;

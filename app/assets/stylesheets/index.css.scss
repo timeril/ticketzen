@@ -1,5 +1,16 @@
 @import "base";
 
+
+//These are global styles, but they reference foundation variables
+
+input[type="button"],
+a.button {
+  @include radius;
+  border-bottom: 2px solid darken($primary-color, 6%);
+}
+
+//Page styles here:
+
 .page-title.hero {
 
   background: url(bg-hero.jpg) no-repeat center center;
@@ -114,8 +125,9 @@
 .for-cities {
   padding: 0 0 3em;
   background: $dark-green;
-  h2, h3, p {color: #fff;}
-  h2 {text-align: center; margin-bottom: 1em;}
+  h3, p {color: #fff;}
+  h2 {text-align: center; margin-bottom: 1em; color: #fff;}
+  p {line-height: 1.5em;}
   .intro {
     background: darken($dark-green, 1%);
     text-align: center;
@@ -128,13 +140,20 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-bottom: 0;
+        color: $bright-green;
       }    
   }
 
-  h4 {color: #fff;}
+  .send-note {border-left:4px solid darken($dark-green, 1%)}
+
+  h4 {color: #fff; color: $bright-green;}
 
   form {
-    textarea {}
+    textarea {
+      background: darken($dark-green, 10%); 
+      border: 0; 
+      color: #fff;
+      @include radius;}
   }
 
 }
