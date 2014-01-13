@@ -72,6 +72,7 @@ group :development do
   gem "guard-rspec"
   gem "pry-rails"
   gem "haml-rails"
+  gem 'sqlite3'
 end
 
 group :test do

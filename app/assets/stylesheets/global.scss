@@ -3,6 +3,12 @@
 
 $dark-blue2: #04283B;
 
+.indent{
+    list-style-position: outside;
+    margin-left: 0;
+    padding-left: 25px;
+}
+
 nav.top-bar {
   background: $dark-blue2;
   border-bottom: 1px solid darken($dark-blue2, 2%);

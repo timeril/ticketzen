@@ -1,7 +1,8 @@
 .page-title.hero
   .row
     .columns.large-12
-      %h1 The easiest way to pay your parking ticket.
+      -# %h1 The easiest way to pay your parking ticket.
+      %h1 Mobile parking ticket collections for your City.
       %h2 Try it for yourself:
       
   .row.try-it
@@ -26,6 +27,54 @@
       %h3 3
       %p Behold the magic!
       =image_tag "iphone-step3.png", :alt => "iPhone"
+
+%section.for-cities
+  -#
+    .intro
+      .row
+        .columns.large-12
+          %h2
+            =image_tag "city-hall.svg", :alt => "City icon"
+            <br>
+            For Cities
+  .row
+    .columns.large-12
+      %h2 Want to bring TicketZen to your city?
+  .row
+    .columns.large-6
+      %p
+        TicketZen’s mobile parking ticket collections solution improves time to collection and collection rate for cities. The patented mobile parking ticket payment technology allows citizens to instantly pay for parking tickets using their iPhone and Android devices. 
+
+      %p
+        %a{:href => "/contact"} Get in touch with TicketZen 
+        to learn if your City will be part of the first 100 Cities launching in 2014.
+
+      %p
+        %a{:href => "/cities"} Learn more about TicketZen
+
+    .columns.large-6.send-note
+      %h4 Send us a note
+      %form
+        .row.collapse
+          .columns.small-12
+            %textarea{:placeholder => "Type your message"}
+
+        #contact-fields.hide
+          .row.collapse
+            .columns.small-2
+              %span.radius.prefix <span class="fontawesome-phone"></span>
+            .columns.small-10
+              %input{:type => "text", :placeholder => "555-555-5555"}
+
+          .row.collapse
+            .columns.small-2
+              %span.radius.prefix <span class="fontawesome-envelope"></span>
+            .columns.small-10
+              %input{:type => "email", :placeholder => "your.name@email.com"}
+
+        .row.collapse
+          .columns.small-6
+          %a.button{:href => "#"} Send
 
 %section.available-cities
   .row
@@ -97,46 +146,3 @@
         "Better than a Jello Pudding Pop"
         %cite
           %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
-
-%section.for-cities
-
-  .intro
-    .row
-      .columns.large-12
-        %h2
-          =image_tag "city-hall.svg", :alt => "City icon"
-          <br>
-          For Cities
-
-  .row
-    .columns.large-12
-      %h2 Want to bring TicketZen to your city?
-  .row
-    .columns.large-6
-      %p
-        TicketZen partners with municipalities to allow its residents to pay for parking tickets using their mobile phones. If you'd like to see TicketZen in your city, get in touch! We'd love to help.
-      %p
-        %a{:href => "/cities"} Learn more
-    .columns.large-6.send-note
-      %h4 Send us a note
-      %form
-        .row.collapse
-          .columns.small-12
-            %textarea{:placeholder => "Type your message"}
-
-        #contact-fields.hide
-          .row.collapse
-            .columns.small-2
-              %span.radius.prefix <span class="fontawesome-phone"></span>
-            .columns.small-10
-              %input{:type => "text", :placeholder => "555-555-5555"}
-
-          .row.collapse
-            .columns.small-2
-              %span.radius.prefix <span class="fontawesome-envelope"></span>
-            .columns.small-10
-              %input{:type => "email", :placeholder => "your.name@email.com"}
-
-        .row.collapse
-          .columns.small-6
-          %a.button{:href => "#"} Send
