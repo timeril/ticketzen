@@ -6,6 +6,12 @@
     text-align: center;
     background: image-url("bg-cities.jpg") no-repeat center center;
     background-size: cover;
+    background: #077689;
+    background-image: -o-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
+    background-image: -moz-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
+    background-image: -webkit-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
+    background-image: -ms-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
+    background-image: linear-gradient(-180deg, #077689 0%, #077689 62%, #055866 100%);
     
     img#ico-city-hall {width: 48px; height: 48;}
     p {margin-bottom: 2em;}
@@ -13,6 +19,19 @@
   }
 
   section {padding: 3em 0 4em;}
+
+  #ticket-msg {
+    margin: emCalc(-71px) auto 1.5em 3em;
+  }
+  .ticket-caption {
+    color: #727272; 
+    font-weight: bold;
+    font-family: $body-font-family;
+    font-size: 14px;
+    width: 70%;
+    padding-left: 3em;
+    margin-bottom: 4em;
+  }
 
   section.faq {
   

@@ -13,8 +13,15 @@ a.button {
 
 .page-title.hero {
 
-  background: image-url("bg-hero.jpg") no-repeat center center;
-  background-size: cover;
+  // background: image-url("bg-hero.jpg") no-repeat center center;
+  // background-size: cover;
+  background: #077689;
+  background-image: -o-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
+  background-image: -moz-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
+  background-image: -webkit-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
+  background-image: -ms-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
+  background-image: linear-gradient(-180deg, #077689 0%, #077689 62%, #055866 100%);
+
   h1, h2 {font-weight: 300;}
   h1 {color: #fff;}
   h2 {color: $light-blue; margin-bottom: 1.5em;}
@@ -38,7 +45,7 @@ a.button {
       color: #fff;
     }
 
-    p {color: #fff; font-size: 18px; margin-bottom: 2em;}
+    p {color: #fff; font-size: emCalc(20px); margin-bottom: 2em;}
 
 	}
 
@@ -49,24 +56,26 @@ a.button {
       color: $light-blue;
     }
 
-    img {margin-bottom:1em;}
+    img {margin-bottom:1em; width: 237px;}
   }
 }
 
-.available-cities h2, 
-.testimonials h2 {
-  font-size: emCalc(20px);
-  font-family: $body-font-family;
-  font-weight: bold;
+.available-cities,
+.testimonials {
+  padding: 3em 0;
+  h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: $dark-blue;
+  }
 }
 
-.available-cities {
-  background: $tealish;
-  border-top: 12px solid darken($tealish, 1%);
-  padding: 3em 0;
 
-  h2, p a {color: darken($tealish, 15%);}
-  // p a {color: lighten($tealish, 30%);}
+
+.available-cities {
+  // background: $tealish;
+  border-top: 12px solid darken($tealish, 1%);
+
   table {
     width: 100%;
     border: 0;
@@ -84,32 +93,30 @@ a.button {
       border-right: 3px solid lighten($tealish, 10%);
     }
     td {
-      font-size: emCalc(30px); 
+      font-size: emCalc(24px); 
       padding-top: 0; 
       line-height: 1.5em;
-      color: #fff;
+      color: $dark-blue;
     }
   }
 }
 
 .testimonials {
-  padding: 4em 0;
-  background: $bright-green;
-  border-top: 12px solid darken($bright-green, 1%);
+  background: $light-grey;
 
-  h2 {color: darken($bright-green, 15%);}
+  h2 {color: dark-blue;}
   blockquote {
     font-size: emCalc(20px); 
-    color: #fff;
+    color: $dark-blue;
     text-align: center;
-    background: lighten($bright-green, 1%) image-url("heart.svg") no-repeat 50% 8%;
+    background: #fff image-url("heart.svg") no-repeat 50% 8%;
     border-radius: 5px;
     border: 0;
     padding: 2em 1em 1em;
     line-height: 1.5em;
   }
   cite {
-    border-top: 1px solid darken($bright-green, 2%);
+    border-top: 4px solid #f1f1f1;
     font-style: normal;
     margin-top: 1em;
     padding-top: 1em;
@@ -119,17 +126,18 @@ a.button {
 
   cite:before {content: "";}
 
-  cite, cite a {color: darken($bright-green, 10%);}
+  cite, cite a {color: $light-blue;}
 }
 
 .for-cities {
   padding: 0 0 4em;
-  background: $dark-green;
-  h3, p {color: #fff;}
-  h2 {text-align: center; margin-bottom: 2em; color: #fff;}
+  h3, p {color: $dark-green;}
+  h2 {text-align: center; margin-bottom: 1em; color: $dark-green;}
   p {line-height: 1.5em;}
+  background: #fff;
+  border-top: 12px solid $bright-green;
   .intro {
-    background: darken($dark-green, 1%);
+    background: #EDF5F1;
     text-align: center;
     padding: 1.5em 0;
     margin-bottom: 3em;
@@ -144,16 +152,17 @@ a.button {
       }    
   }
 
-  .send-note {border-left:4px solid darken($dark-green, 1%)}
+  .send-note {border-left:4px solid #f1f1f1}
 
   h4 {color: #fff; color: $bright-green;}
 
   form {
     textarea {
-      background: darken($dark-green, 10%); 
-      border: 0; 
-      color: #fff;
+      background: #f1f1f1;
+      border:0;
+      color: $dark-green;
       height: 120px;
+      font-size: 1em;
       @include radius;
     }
   }

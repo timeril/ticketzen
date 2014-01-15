@@ -1,7 +1,16 @@
 // Colors
-$bg1: #f1f1f1; //background
-$light-blue: #03C4E2;
-$tealish: #007F9A;
+
+// $bg1: #f1f1f1;
+// $light-blue: #03C4E2;
+// $tealish: #007F9A;
+// $bright-green: #079948;
+// $dark-green: #0A613E;
+// $dark-blue: #004454;
+
+$light-grey: #f1f1f1;
+$light-blue: #85D8E6;
+$tealish: #0792A9;
+$tealer: #30928C;
 $bright-green: #079948;
 $dark-green: #0A613E;
 $dark-blue: #004454;
@@ -14,6 +23,7 @@ $table-bg: transparent;
 $table-even-row-bg: transparent;
 $topbar-title-weight: normal;
 $topbar-title-font-size: 24px;
+$topbar-link-color: $tealer;
 $topbar-link-weight: normal;
 $primary-color: $bright-green;
 $shiny-edge-size: 0 0 0 !default;

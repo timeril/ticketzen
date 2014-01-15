@@ -13,10 +13,10 @@
         %em (it's totally free)
       %p<
         %a{:href => "#"}
-          =image_tag "app-store-badge-135x40.svg", :alt => "Download on the App Store"
+          =image_tag "btn-app-store@2x.png", :alt => "Download on the App Store"
         <br>
         %a{:href => "#"}
-          =image_tag "https://developer.android.com/images/brand/en_generic_rgb_wo_45.png", :alt => "Get it on Google Play"
+          =image_tag "btn-google-play@2x.png", :alt => "Get it on Google Play"
 
     .columns.large-4.step#step2
       %h3 2
@@ -28,23 +28,105 @@
       %p Behold the magic!
       =image_tag "iphone-step3.png", :alt => "iPhone"
 
+%section.available-cities
+
+  .row
+    .columns.large-12
+      %h2 Available in these cities
+  .row
+    .columns.large-3
+      %table
+        %tr
+          %th CO
+          %td Boulder<br>Denver
+        %tr
+          %th CT
+          %td Hartford
+    .columns.large-3
+      %table
+        %tr
+          %th CO
+          %td Boulder<br>Denver
+        %tr
+          %th CT
+          %td Hartford
+    .columns.large-3
+      %table
+        %tr
+          %th MA
+          %td 
+            Boston<br>
+            Cambridge<br>
+            Salem
+        %tr
+          %th CT
+          %td Hartford
+    .columns.large-3
+      %table
+        %tr
+          %th CO
+          %td Boulder<br>Denver
+        %tr
+          %th CT
+          %td Hartford
+
+%section.testimonials
+  .row
+    .columns.large-12
+      %h2 Bringing joy to many
+  .row
+    .columns.large-3
+      %blockquote 
+        "Better than a Jello Pudding Pop"
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+      %blockquote 
+        "Nullam id dolor id nibh ultricies vehicula ut id elit."
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+    .columns.large-3
+      %blockquote 
+        "Better than a Jello Pudding Pop"
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+      %blockquote 
+        "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+    .columns.large-3
+      %blockquote 
+        "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+      %blockquote 
+        "Donec ullamcorper nulla non metus auctor fringilla."
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+    .columns.large-3
+      %blockquote 
+        "Integer posuere erat a ante."
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+      %blockquote 
+        "Nullam quis risus eget urna mollis ornare vel eu leo."
+        %cite
+          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
+
 %section.for-cities
-  -#
-    .intro
-      .row
-        .columns.large-12
-          %h2
-            =image_tag "city-hall.svg", :alt => "City icon"
-            <br>
-            For Cities
+  .intro
+    .row
+      .columns.large-12
+        %h2
+          =image_tag "city-hall2.svg", :alt => "City icon"
+          <br>
+          For Cities
   .row
     .columns.large-12
       %h2 Want to bring TicketZen to your city?
   .row
     .columns.large-6
-      %p
-        :markdown
-          TicketZen’s mobile parking ticket collections solution improves **time to collection and collection rates** for cities. The patented mobile parking ticket payment technology allows citizens to **instantly pay for parking tickets** using their iPhone and Android devices. 
+      :markdown
+        TicketZen’s mobile parking ticket collections solution improves **time to collection and collection rates** for cities. The patented mobile parking ticket payment technology allows citizens to **instantly pay for parking tickets** using their iPhone and Android devices. 
 
       %p
         %a{:href => "/contact"} Get in touch with TicketZen 
@@ -76,74 +158,3 @@
         .row.collapse
           .columns.small-6
           %a.button{:href => "#"} Send
-
-%section.available-cities
-  .row
-    .columns.large-3
-      %h2 Available in these cities
-      %p
-        %a{:href => "#"} Where's my city?
-    .columns.large-3
-      %table
-        %tr
-          %th CO
-          %td Boulder<br>Denver
-        %tr
-          %th CT
-          %td Hartford
-    .columns.large-3
-      %table
-        %tr
-          %th MA
-          %td 
-            Boston<br>
-            Cambridge<br>
-            Salem
-        %tr
-          %th CT
-          %td Hartford
-    .columns.large-3
-      %table
-        %tr
-          %th CO
-          %td Boulder<br>Denver
-        %tr
-          %th CT
-          %td Hartford
-%section.testimonials
-  .row
-    .columns.large-3
-      %h2 Bringing joy to many
-    .columns.large-3
-      %blockquote 
-        "Better than a Jello Pudding Pop"
-        %cite
-          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
-    .columns.large-3
-      %blockquote 
-        "Better than a Jello Pudding Pop"
-        %cite
-          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
-    .columns.large-3
-      %blockquote 
-        "Better than a Jello Pudding Pop"
-        %cite
-          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
-  .row
-    
-      
-    .columns.large-3.large-offset-3
-      %blockquote 
-        "Better than a Jello Pudding Pop"
-        %cite
-          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
-    .columns.large-3
-      %blockquote 
-        "Better than a Jello Pudding Pop"
-        %cite
-          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
-    .columns.large-3
-      %blockquote 
-        "Better than a Jello Pudding Pop"
-        %cite
-          %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself

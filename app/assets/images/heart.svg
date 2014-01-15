@@ -4,9 +4,11 @@
     <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="homepage-desktop" sketch:type="MSArtboardGroup" transform="translate(-364.000000, -922.000000)" fill="#000000" opacity="0.184446023">
-            <g id="testimonials-copy" sketch:type="MSLayerGroup" transform="translate(-40.000000, 887.000000)">
-                <path d="M423.917132,46.1342765 C426.691338,43.3765714 426.632158,39.3571139 424.109852,36.8635677 C421.587546,34.3693655 417.508956,34.3802992 414.999849,36.8876219 C412.490963,34.3802992 408.412373,34.3693655 405.890067,36.8635677 C403.36776,39.3571139 403.3088,43.3765714 406.082787,46.1342765 C409.179075,49.2116839 414.132827,54.1377661 414.999849,55 C415.867531,54.1377661 420.820624,49.2116839 423.917132,46.1342765 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        <g id="homepage-desktop" sketch:type="MSArtboardGroup" transform="translate(-890.000000, -1384.000000)" fill="#F1F1F1">
+            <g id="testimonials-copy" sketch:type="MSLayerGroup" transform="translate(-44.000000, 1329.000000)">
+                <g id="Group-copy-2" transform="translate(830.000000, 36.000000)" sketch:type="MSShapeGroup">
+                    <path d="M123.917132,30.1342765 C126.691338,27.3765714 126.632158,23.3571139 124.109852,20.8635677 C121.587546,18.3693655 117.508956,18.3802992 114.999849,20.8876219 C112.490963,18.3802992 108.412373,18.3693655 105.890067,20.8635677 C103.36776,23.3571139 103.3088,27.3765714 106.082787,30.1342765 C109.179075,33.2116839 114.132827,38.1377661 114.999849,39 C115.867531,38.1377661 120.820624,33.2116839 123.917132,30.1342765 Z" id="Shape"></path>
+                </g>
             </g>
         </g>
     </g>
