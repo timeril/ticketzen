@@ -124,19 +124,18 @@
     .columns.large-12
       %h2 Want to bring TicketZen to your city?
   .row
-    .columns.large-6
+    .columns.large-8.large-centered
       :markdown
         TicketZen’s mobile parking ticket collections solution improves **time to collection and collection rates** for cities. The patented mobile parking ticket payment technology allows citizens to **instantly pay for parking tickets** using their iPhone and Android devices. 
 
       %p
-        %a{:href => "/contact"} Get in touch with TicketZen 
-        to learn if your City will be part of the first 100 Cities launching in 2014.
+        %a.button.secondary.large-4{:href => "/cities"} Learn more
 
-      %p
-        %a{:href => "/cities"} Learn more about TicketZen
-
-    .columns.large-6.send-note
+  .row
+    .columns.large-8.large-centered.send-note
       %h4 Send us a note
+      :markdown
+        Get in touch to learn if your city will be part of **the first 100 cities** launching in 2014:
       %form
         .row.collapse
           .columns.small-12
@@ -157,4 +156,5 @@
 
         .row.collapse
           .columns.small-6
-          %a.button{:href => "#"} Send
+          %p
+            %a.button.large-4{:href => "#"} Send

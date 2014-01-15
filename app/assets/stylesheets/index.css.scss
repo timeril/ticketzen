@@ -109,10 +109,10 @@ a.button {
     font-size: emCalc(20px); 
     color: $dark-blue;
     text-align: center;
-    background: #fff image-url("heart.svg") no-repeat 50% 8%;
+    background: #fff image-url("heart.svg") no-repeat 50% 1em;
     border-radius: 5px;
     border: 0;
-    padding: 2em 1em 1em;
+    padding: 2.5em 1em 1em;
     line-height: 1.5em;
   }
   cite {
@@ -132,8 +132,8 @@ a.button {
 .for-cities {
   padding: 0 0 4em;
   h3, p {color: $dark-green;}
-  h2 {text-align: center; margin-bottom: 1em; color: $dark-green;}
-  p {line-height: 1.5em;}
+  h2 {text-align: center; margin-bottom: 1em; color: $dark-blue;}
+  p {line-height: 1.5em; text-align: center;}
   background: #fff;
   border-top: 12px solid $bright-green;
   .intro {
@@ -152,9 +152,20 @@ a.button {
       }    
   }
 
-  .send-note {border-left:4px solid #f1f1f1}
+  .button.secondary,
+  .button.secondary:hover {color: $bright-green;}
 
-  h4 {color: #fff; color: $bright-green;}
+  h4 {
+    color: #fff; 
+    color: $dark-green;
+    font-size: 24px;
+    font-family: $body-font-family;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    padding-bottom: .25em;
+    border-bottom: 1px solid $light-grey;
+  }
 
   form {
     textarea {
