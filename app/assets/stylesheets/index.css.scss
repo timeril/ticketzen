@@ -131,50 +131,71 @@ a.button {
 
 .for-cities {
   padding: 0 0 4em;
-  h3, p {color: $dark-green;}
-  h2 {text-align: center; margin-bottom: 1em; color: $dark-blue;}
-  p {line-height: 1.5em; text-align: center;}
-  background: #fff;
-  border-top: 12px solid $bright-green;
-  .intro {
-    background: #EDF5F1;
+  background: #11A453;
+
+  .title {
+    background: #0C9C4D;
     text-align: center;
-    padding: 1.5em 0;
+    padding: 1.5em 0 0;
     margin-bottom: 3em;
-      h2 {
-        font-size: 1em; 
-        line-height: 2em;
-        font-family: $body-font-family;
+
+      h3 {
+        font: 1em/2em $body-font-family;
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-bottom: 0;
-        color: $bright-green;
+        margin-bottom: 1em;
+        color: #125B31;
       }    
   }
 
-  .button.secondary,
-  .button.secondary:hover {color: $bright-green;}
+  h2, h4, p {color: #fff;}
 
-  h4 {
-    color: #fff; 
-    color: $dark-green;
-    font-size: 24px;
-    font-family: $body-font-family;
+  .intro {
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: .5em;
-    padding-bottom: .25em;
-    border-bottom: 1px solid $light-grey;
+    margin-bottom: 3em;
+    p {
+      line-height: 1.6em; 
+      text-align: center;
+      font-size: emCalc(16px);
+      font-weight: 300;
+    }
   }
 
-  form {
+  .city-cta {
+    h4 {
+      margin-bottom: 0;
+      font-size: emCalc(24px);
+      font-family: $body-font-family;
+    }
+    .button {font-weight: normal;}
+  }
+
+  .learn-more {
+    .button {
+      background: #39E16F; 
+      color: #1D8147;
+      border-color: #20B663;
+    }
+    a:hover.button {
+      color: #1D8147;
+      background: darken(#39E16F, 10%);
+    }
+  }
+
+  .send-note {
+
     textarea {
-      background: #f1f1f1;
+      background: #fff;
       border:0;
-      color: $dark-green;
+      color: $bright-green;
       height: 120px;
       font-size: 1em;
       @include radius;
+    }
+    .button {
+      background: #125B31;
+      border-color: #0E522B;
     }
   }
 

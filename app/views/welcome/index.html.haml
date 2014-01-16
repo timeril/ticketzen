@@ -113,29 +113,31 @@
           %a{:href => "http://twitter.com/billcosby"} @billcosbyhimself
 
 %section.for-cities
-  .intro
+  .title
     .row
       .columns.large-12
-        %h2
-          =image_tag "city-hall2.svg", :alt => "City icon"
+        %h3
+          =image_tag "city-hall3.svg", :alt => "City icon"
           <br>
           For Cities
-  .row
-    .columns.large-12
-      %h2 Want to bring TicketZen to your city?
-  .row
-    .columns.large-8.large-centered
-      :markdown
-        TicketZen’s mobile parking ticket collections solution improves **time to collection and collection rates** for cities. The patented mobile parking ticket payment technology allows citizens to **instantly pay for parking tickets** using their iPhone and Android devices. 
 
+  .row
+    .columns.large-8.large-centered.intro
+      %h2 Want TicketZen for your city?
+      :markdown
+        TicketZen’s mobile parking ticket collections solution improves **time to collection and collection rates** for cities. The patented mobile parking ticket payment technology allows citizens to **instantly pay for parking tickets** using their iPhone and Android devices.
+
+  .row
+    .columns.large-4.large-offset-2.learn-more.city-cta
+      %h4 How it works
+      %p For questions about availability, pricing, and implementation:
       %p
-        %a.button.secondary.large-4{:href => "/cities"} Learn more
+        %a.button.secondary{:href => "/cities"} Learn more
 
-  .row
-    .columns.large-8.large-centered.send-note
-      %h4 Send us a note
+    .columns.large-4.send-note.city-cta
+      %h4 Ready to talk?
       :markdown
-        Get in touch to learn if your city will be part of **the first 100 cities** launching in 2014:
+        Get in touch to learn if your city will be part of the first 100 cities launching in 2014.
       %form
         .row.collapse
           .columns.small-12
@@ -158,3 +160,4 @@
           .columns.small-6
           %p
             %a.button.large-4{:href => "#"} Send
+    .columns.large-2

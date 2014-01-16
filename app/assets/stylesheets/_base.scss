@@ -1,12 +1,5 @@
 // Colors
 
-// $bg1: #f1f1f1;
-// $light-blue: #03C4E2;
-// $tealish: #007F9A;
-// $bright-green: #079948;
-// $dark-green: #0A613E;
-// $dark-blue: #004454;
-
 $light-grey: #f1f1f1;
 $light-blue: #85D8E6;
 $tealish: #0792A9;
@@ -30,6 +23,7 @@ $shiny-edge-size: 0 0 0 !default;
 $global-radius: 5px;
 $button-function-factor: 4%;
 $button-border-width: 0;
+$button-font-weight: normal;
 $panel-border-size: 0;
 
 @import "foundation";

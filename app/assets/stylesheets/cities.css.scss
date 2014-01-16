@@ -4,20 +4,23 @@
   
   .page-title {
     text-align: center;
-    background: image-url("bg-cities.jpg") no-repeat center center;
-    background-size: cover;
-    background: #077689;
-    background-image: -o-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
-    background-image: -moz-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
-    background-image: -webkit-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
-    background-image: -ms-linear-gradient(-90deg, #077689 0%, #077689 62%, #055866 100%);
-    background-image: linear-gradient(-180deg, #077689 0%, #077689 62%, #055866 100%);
+    /* bg hue: */
+
+/* bg hue: */
+/* bg hue: */
+background-image: -o-linear-gradient(-90deg, #11A453 0%, #11A453 62%, #108B47 100%);
+background-image: -moz-linear-gradient(-90deg, #11A453 0%, #11A453 62%, #108B47 100%);
+background-image: -webkit-linear-gradient(-90deg, #11A453 0%, #11A453 62%, #108B47 100%);
+background-image: -ms-linear-gradient(-90deg, #11A453 0%, #11A453 62%, #108B47 100%);
+background-image: linear-gradient(-180deg, #11A453 0%, #11A453 62%, #108B47 100%);
     
     img#ico-city-hall {width: 48px; height: 48;}
     p {margin-bottom: 2em;}
 
   }
-
+  section.intro {
+    border-top: 12px solid $bright-green;
+  }
   section {padding: 3em 0 4em;}
 
   #ticket-msg {
