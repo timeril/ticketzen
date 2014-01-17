@@ -28,7 +28,13 @@
       font: 2.25em/1.5em $body-font-family;
       border-bottom: 4px solid #f1f1f1;
     }
-    img.ico {width: 140px; height: auto; margin: 0 2em; display: block;}
+    // img.ico {width: 140px; height: auto; margin: 0 2em; display: block;}
+    img.ico {
+      margin-top: 2em;
+      @media only screen and (min-width: 48em) {
+        margin-right: 1em;
+      }
+    }
   }
 
   #ticket-msg {
@@ -59,8 +65,19 @@
   section.contact {
 
     background: #f1f1f1;
+    h2 {margin-bottom: 0;}
+    textarea {
+      border-radius: 5px;
 
-    h2, p, blockquote, cite {color: #fff;}
+    }
+    .button {margin-bottom:0;}
+  }
+
+  section.press {
+    background: $bright-green;
+    border-top: 12px solid darken($bright-green, 2%);
+
+    h2, p, cite {color: #fff;}
   }
 
 }

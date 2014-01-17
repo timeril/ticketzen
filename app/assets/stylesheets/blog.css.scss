@@ -4,15 +4,28 @@
   
   .page-title {
     text-align: center;
-	background-image: -o-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
-	background-image: -moz-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
-	background-image: -webkit-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
-	background-image: -ms-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
-	background-image: linear-gradient(-180deg, #087539 0%, #087539 42%, #076331 100%);
-	border-bottom: 12px solid #087539;
+  	background-image: -o-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
+  	background-image: -moz-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
+  	background-image: -webkit-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
+  	background-image: -ms-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
+  	background-image: linear-gradient(-180deg, #087539 0%, #087539 42%, #076331 100%);
+  	border-bottom: 12px solid #087539;
 
   }
 
   section {padding: 3em 0 4em;}
+
+  .byline {
+  	margin-top: 1em;
+  	font-size: 14px;
+  	border-bottom: 2px solid #f1f1f1;
+  	span.author {font-weight: bold;}
+  }
+  aside {
+    margin-top: 2em;
+  	dl {
+  		border-left: 4px solid #f1f1f1;
+  	}
+  }
   
 }

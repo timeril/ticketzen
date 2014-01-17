@@ -8,32 +8,30 @@
           Give your citizens the easiest solution to pay parking tickets, with their phone.
 
   .row.faq-set.roadmap
-    .columns.small-4.large-4
-      =image_tag "map.svg", :alt => "alttext", :class => "ico"
-    .columns.small-8.large-8
+    .columns.small-2.large-4
+      =image_tag "map.svg", :alt => "alttext", :class => "ico right"
+    .columns.small-10.large-8
       %h2 Availability
       %dl
         %dt When will TicketZen be available for my City?
         %dd In 2014, TicketZen is launching in over 100 cities across North America, Europe, and Australia. To see if your city is in the launch roadmap, please send us a note to: hi@ticketzen.com.
 
   .row.faq-set.pricing
-    .columns.large-8
+    .columns.small-10.large-8
       %h2 Pricing
       %dl
         %dt What are the requirements to bring TicketZen to my City?
         %dd
-          %ol
+          %ol.indent
             %li There is a $1 charge per parking ticket paid with TicketZen.
             %li Cities are required to print the TicketZen payment option on the front of the parking ticket.
-    .columns.large-2
-      =image_tag "dollah.svg", :alt => "alttext", :class => "ico"
-    .columns.large-2
-      &nbsp;
+    .columns.small-2.large-4
+      =image_tag "dollah.svg", :alt => "alttext", :class => "ico left"
 
-  .row.faq-set
-    .columns.large-4
-      =image_tag "hand-phone.svg", :alt => "alttext", :class => "ico"
-    .columns.large-8
+  .row.faq-set.implement
+    .columns.small-2.large-4
+      =image_tag "hand-phone.svg", :alt => "alttext", :class => "ico right"
+    .columns.small-10.large-8
       %h2 Implementation
       %dl
         %dt Will you require technical resources from my City to implement TicketZen?
@@ -47,7 +45,9 @@
 
   %section.contact
     .row
-      .columns.large-6
+      .columns.large-8.large-centered.large-offset-4
+        %h2 Send us a note
+        %p Get in touch to learn if your city will be part of the first 100 cities launching in 2014.
         %form
           .row.collapse
             .columns.small-12
@@ -70,6 +70,7 @@
             .columns.small-6
             %p
               %a.button.large-4{:href => "#"} Send
+
   %section.press
     .row
       .columns.large-12

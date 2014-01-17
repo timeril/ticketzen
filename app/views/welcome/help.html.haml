@@ -9,14 +9,64 @@
       .columns.large-8
         %dl.accordion{:data => {'accordion' => true}}
           %dd
-            %a{:href => "#panel1"} Question text
-            .content.active#panel1 Question answer
+            %a{:href => "#panel1"}What is TicketZen?
+            .content.active#panel1
+              :markdown
+                TicketZen is a Boston-based mobile app company that takes the hassle out of paying parking tickets. TicketZen allows citizens to pay a parking ticket instantly via their iPhone or Android mobile device. TicketZen also partners directly with local municipalities to facilitate mobile parking payments.
           %dd
-            %a{:href => "#panel2"} Question text
-            .content#panel1 Question answer
+            %a{:href => "#panel1"}How does it work?
+            .content.active#panel1
+              :markdown
+                TicketZen allows you to pay your parking ticket instantly with your mobile phone. Open the TicketZen app on your mobile device, scan the barcode on your parking ticket, and your ticket is paid. The first time you use TicketZen, enter your credit card information and we will use that to facilitate the transaction with your local city.
+
           %dd
-            %a{:href => "#panel3"} Question text
-            .content#panel1 Question answer
+            %a{:href => "#panel1"}How much does it cost?
+            .content.active#panel1
+              :markdown
+                In Boston, TicketZen is free (thanks to the City of Boston!). In other cities, TicketZen may charge a convenience fee.
+
+          %dd
+            %a{:href => "#panel1"}Are you hiring?
+            .content.active#panel1
+              :markdown
+                Yes! If you are a talented engineer or hungry for a sales internship, please send a note to hi@ticketzen.com.
+
+          %dd
+            %a{:href => "#panel1"}I have a technical support problem or a support issue that I need resolved. Who do I email?
+            .content.active#panel1
+              :markdown
+                Send a note to support@ticketzen.com and we'll get back to you shortly.
+
+          %dd
+            %a{:href => "#panel1"}How will I know that my ticket has been successfully paid?
+            .content.active#panel1
+              :markdown
+                Once the transaction is complete and successful, you will receive an email confirmation from the city that issued your parking ticket.
+
+          %dd
+            %a{:href => "#panel1"}Does TicketZen work in all cities?
+            .content.active#panel1
+              :markdown
+                Eventually, yes! TicketZen is currently supported in Boston, MA. We are rolling out new cities often, so stay tuned.
+
+                If you'd like to see your city supported on TicketZen, let us know! Send a note to hi@ticketzen.com. Also, if you work for a city and would like to discuss partnership opportunities with TicketZen, drop us a line at hi@ticketzen.com.
+
+          %dd
+            %a{:href => "#panel1"}I scanned my ticket but it wasn't found — now what?
+            .content.active#panel1
+              :markdown
+                Your ticket was most likely recently issued and has not been entered into your city's database. Many cities upload issued tickets on a nightly basis. If you've scanned your ticket and it wasn't found, TicketZen will notify you once your ticket is ready to be paid.
+
+          %dd
+            %a{:href => "#panel1"}My credit card didn't process — now what?
+            .content.active#panel1
+              :markdown
+                Double check that you entered your payment information correctly. If not, there may be a connectivity lapse between your city's system and TicketZen. If so, we are on top of it so please try again shortly or send an email to support@ticketzen.com.
+          %dd
+            %a{:href => "#panel1"}How do I contact TicketZen?
+            .content.active#panel1
+              :markdown
+                If you'd like to say hello or give feedback, drop a line to hi@ticketzen.com. Please send support questions to support@ticketzen.com. If you are a City Official and would like to implement mobile parking payments in your city, please send a note to hi@ticketzen.com.
 
       %aside.columns.large-4.panel
         %h3 Need more help?
