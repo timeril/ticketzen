@@ -4,8 +4,12 @@
   
   .page-title {
     text-align: center;
-    background: image-url("bg-blog.jpg") no-repeat 50% 30%;
-    background-size: 100% auto;
+	background-image: -o-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
+	background-image: -moz-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
+	background-image: -webkit-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
+	background-image: -ms-linear-gradient(-90deg, #087539 0%, #087539 42%, #076331 100%);
+	background-image: linear-gradient(-180deg, #087539 0%, #087539 42%, #076331 100%);
+	border-bottom: 12px solid #087539;
 
   }
 

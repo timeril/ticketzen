@@ -4,15 +4,13 @@
   
   .page-title {
     text-align: center;
-    /* bg hue: */
-
-/* bg hue: */
-/* bg hue: */
-background-image: -o-linear-gradient(-90deg, #11A453 0%, #11A453 62%, #108B47 100%);
-background-image: -moz-linear-gradient(-90deg, #11A453 0%, #11A453 62%, #108B47 100%);
-background-image: -webkit-linear-gradient(-90deg, #11A453 0%, #11A453 62%, #108B47 100%);
-background-image: -ms-linear-gradient(-90deg, #11A453 0%, #11A453 62%, #108B47 100%);
-background-image: linear-gradient(-180deg, #11A453 0%, #11A453 62%, #108B47 100%);
+    border-bottom: 12px solid darken($bright-green, 2%);
+    margin-bottom: 4em;
+    background-image: -o-linear-gradient(-90deg, #11A453 0%, #11A453 42%, #0F8644 100%);
+    background-image: -moz-linear-gradient(-90deg, #11A453 0%, #11A453 42%, #0F8644 100%);
+    background-image: -webkit-linear-gradient(-90deg, #11A453 0%, #11A453 42%, #0F8644 100%);
+    background-image: -ms-linear-gradient(-90deg, #11A453 0%, #11A453 42%, #0F8644 100%);
+    background-image: linear-gradient(-180deg, #11A453 0%, #11A453 42%, #0F8644 100%);
     
     img#ico-city-hall {width: 48px; height: 48;}
     p {margin-bottom: 2em;}
@@ -22,6 +20,16 @@ background-image: linear-gradient(-180deg, #11A453 0%, #11A453 62%, #108B47 100%
     border-top: 12px solid $bright-green;
   }
   section {padding: 3em 0 4em;}
+
+
+  .faq-set {
+    padding: 2em 0;
+    h2 {
+      font: 2.25em/1.5em $body-font-family;
+      border-bottom: 4px solid #f1f1f1;
+    }
+    img.ico {width: 140px; height: auto; margin: 0 2em; display: block;}
+  }
 
   #ticket-msg {
     margin: emCalc(-71px) auto 1.5em 3em;
@@ -45,12 +53,12 @@ background-image: linear-gradient(-180deg, #11A453 0%, #11A453 62%, #108B47 100%
     
     background: $bright-green;
     padding: 2em 0 3em;
-    border-top: 12px solid darken($bright-green, 2%);
+    
   } 
 
-  section.press {
+  section.contact {
 
-    background: $dark-green;
+    background: #f1f1f1;
 
     h2, p, blockquote, cite {color: #fff;}
   }

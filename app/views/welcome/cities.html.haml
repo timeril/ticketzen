@@ -7,62 +7,53 @@
         %p
           Give your citizens the easiest solution to pay parking tickets, with their phone.
 
-  %section.intro
+  .row.faq-set.roadmap
+    .columns.small-4.large-4
+      =image_tag "map.svg", :alt => "alttext", :class => "ico"
+    .columns.small-8.large-8
+      %h2 Availability
+      %dl
+        %dt When will TicketZen be available for my City?
+        %dd In 2014, TicketZen is launching in over 100 cities across North America, Europe, and Australia. To see if your city is in the launch roadmap, please send us a note to: hi@ticketzen.com.
+
+  .row.faq-set.pricing
+    .columns.large-8
+      %h2 Pricing
+      %dl
+        %dt What are the requirements to bring TicketZen to my City?
+        %dd
+          %ol
+            %li There is a $1 charge per parking ticket paid with TicketZen.
+            %li Cities are required to print the TicketZen payment option on the front of the parking ticket.
+    .columns.large-2
+      =image_tag "dollah.svg", :alt => "alttext", :class => "ico"
+    .columns.large-2
+      &nbsp;
+
+  .row.faq-set
+    .columns.large-4
+      =image_tag "hand-phone.svg", :alt => "alttext", :class => "ico"
+    .columns.large-8
+      %h2 Implementation
+      %dl
+        %dt Will you require technical resources from my City to implement TicketZen?
+        %dd TicketZen does not require any technical assistance or resources from cities.
+
+        %dt How does TicketZen integrate with my current Parking Management Solution?
+        %dd TicketZen’s technical team integrates its patented mobile solution seamlessly with a City’s existing pay-by-web platform.
+
+        %dt My City does not have real-time ticketing. Will TicketZen still work in my City?
+        %dd Yes. TicketZen has a patented mobile technology solution that works with both real-time ticketing and batch processing.
+
+  %section.contact
     .row
       .columns.large-6
+        %form
+          .row.collapse
+            .columns.small-12
+              %textarea{:placeholder => "Type your message"}
 
-        %dl
-          %dt
-            When will TicketZen be available for my City? 
-          %dd
-            :markdown
-              In 2014, TicketZen is launching in over 100 cities across North America, Europe, and Australia. To see if your city is in the launch roadmap, please send us a note to: <mailto:hi@ticketzen.com>.
-
-          %dt
-            What are the requirements to bring TicketZen to my City?
-          %dd
-            %ol.indent
-              %li There is a $1 charge per parking ticket paid with TicketZen.
-              %li Cities are required to print the TicketZen payment option on the front of the parking ticket.
-
-          %dt
-            How much does TicketZen charge to implement its mobile solution in my City?
-          %dd
-            There is a $1 charge per parking ticket paid with TicketZen.
-
-          %dt
-            Will you require technical resources from my City to implement TicketZen?
-          %dd
-            TicketZen does not require any technical assistance or resources from cities.
-
-          %dt
-            How does TicketZen integrate with my current Parking Management Solution?
-          %dd
-            TicketZen’s technical team integrates its patented mobile solution seamlessly with a City’s existing pay-by-web platform.
-
-          %dt
-            My City does not have real-time ticketing. Will TicketZen still work in my City?
-          %dd
-            Yes. TicketZen has a patented mobile technology solution that works with both real-time ticketing and batch processing.
-
-          %dt
-            How can I ensure that TicketZen comes to my City in 2014?
-          %dd
-            :markdown
-              TicketZen is launching in over 100 cities in 2014. The launch roadmap includes major metropolitan cities as well as mid and small-sized cities. To inquire regarding TicketZen’s launch roadmap and timing, please send a note to <mailto:hi@ticketzen.com>.
-
-      .columns.large-6
-        -#
-          =image_tag "ticket-msg.png", :alt => "alttext", :id => "ticket-msg"
-          %h4.ticket-caption Speed adoption by promoting TicketZen right on your tickets.
-        .panel
-          %h3 Get in touch
-          %form
-
-            .row.collapse
-              .columns.small-12
-                %textarea{:placeholder => "Type your message"}
-
+          #contact-fields.hide
             .row.collapse
               .columns.small-2
                 %span.radius.prefix <span class="fontawesome-phone"></span>
@@ -75,11 +66,10 @@
               .columns.small-10
                 %input{:type => "email", :placeholder => "your.name@email.com"}
 
-            .row.collapse
-              .columns.small-6
-              %a.button{:href => "#"} Send
-      
-
+          .row.collapse
+            .columns.small-6
+            %p
+              %a.button.large-4{:href => "#"} Send
   %section.press
     .row
       .columns.large-12
