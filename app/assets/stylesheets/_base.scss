@@ -7,6 +7,7 @@ $tealer: #30928C;
 $bright-green: #079948;
 $dark-green: #0A613E;
 $dark-blue: #004454;
+$dark-blue2: #04283B;
 
 // Foundation setttings
 $body-font-family: proxima-nova, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -16,10 +17,15 @@ $header-font-weight: 300;
 $header-font-color: $dark-blue;
 $table-bg: transparent;
 $table-even-row-bg: transparent;
+$topbar-bg-color: $dark-blue2;
 $topbar-title-weight: normal;
 $topbar-title-font-size: 24px;
 $topbar-link-color: $tealer;
 $topbar-link-weight: normal;
+$topbar-link-bg-hover: #243133;
+$topbar-dropdown-label-font-size: 2em;
+$topbar-menu-link-color-toggled: $tealer;
+$topbar-menu-icon-color-toggled: $tealer;
 $primary-color: $bright-green;
 $shiny-edge-size: 0 0 0 !default;
 $global-radius: 5px;
