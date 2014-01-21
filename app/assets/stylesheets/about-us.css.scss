@@ -17,8 +17,13 @@
 
   .team-photos {
     li {text-align: center;}
-    li img {border-radius: 100px;}
-    h5 span {display: block; font-weight: normal;}
+    li img {border-radius: 150px;}
+    h5 span {
+      display: block; 
+      font-weight: normal; 
+      font-size: 14px;
+      color: lighten(#30928C, 20%);
+    }
   	margin-top: -4em;
   	padding: 2em 0 0;
   }
