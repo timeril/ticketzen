@@ -9,18 +9,20 @@ $dark-blue2: #04283B;
     padding-left: 25px;
 }
 
+#logo {height: 63px; z-index: 30; position: absolute; top:.5em; left: 1em; }
+
 nav.top-bar {
   background: $dark-blue2;
   border-bottom: 1px solid darken($dark-blue2, 2%);
 
-  .logo {height: 63px;}
+  // #logo {height: 63px; z-index: 30; position: absolute; }
 
   .top-bar-section ul,
   .top-bar-section li a:not(.button) {background: transparent;}
-  .name h1 a {color: #fff;}
+  .name h1 a {color: #fff; padding-left: 3.5em;}
 }
 
-.title-area .name img {margin-right: 1em;}
+.title-area .name img {margin-right: 1em; overflow: visible;}
 
 .page-title {
 	padding: 3em 0 0;
