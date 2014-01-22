@@ -3,26 +3,22 @@
 
 $dark-blue2: #04283B;
 
-.indent{
+.indent {
     list-style-position: outside;
     margin-left: 0;
     padding-left: 25px;
 }
 
-#logo {height: 63px; z-index: 30; position: absolute; top:.5em; left: 1em; }
+#logo { height: 63px; z-index: 30; position: absolute; top:.5em; left: 1em; }
 
 nav.top-bar {
   background: $dark-blue2;
   border-bottom: 1px solid darken($dark-blue2, 2%);
 
-  // #logo {height: 63px; z-index: 30; position: absolute; }
-
-  // .top-bar-section ul,
-  // .top-bar-section li a:not(.button) {background: transparent;}
-  .name h1 a {color: #fff; padding-left: 3.5em; letter-spacing: 1px;}
+  .name h1 a { color: #fff; padding-left: 3.5em; letter-spacing: 1px; }
 }
 
-.title-area .name img {margin-right: 1em; }
+.title-area .name img { margin-right: 1em; }
 
 .page-title {
 	padding: 3em 0 0;
@@ -51,10 +47,9 @@ footer {
   nav a {display: inline-block; padding-right: 2em;}
 }
 
-.press
-  {
-    h2 {text-align:center;}
-    .logo {display: block; margin: 0 auto 1em;}
-    blockquote {border-left: 0;}
+.press {
+    h2 { text-align:center; }
+    .logo { display: block; margin: 0 auto 1em; }
+    blockquote { border-left: 0; }
   }
 
